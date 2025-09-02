@@ -8,7 +8,7 @@ namespace csharp_exercises
 
    //Extra exercises for7 C# beyond the textbook.
 {
-    class Program
+    class reyhane
     {
         /*تمرین ۱
         توضیح: گرفتن ورودی سن کاربر و نمایش آن
