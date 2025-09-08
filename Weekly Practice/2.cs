@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 public class Program {
     public static void Main() {
         Console.WriteLine("How many glasses of Water do you drink per day?");
@@ -13,17 +13,17 @@ public class Program {
        int health_score = (5 * water) + (tea) - (3 * soda);
         if (health_score > 15) {
             Console.WriteLine("100% healthy lifestyle");
-            Console.ReadKey;
+            
 
         }
         else if (health_score > 5 && health_score < 15) {
             Console.WriteLine("50% healthy lifestyle, not bad...");
-            Console.ReadKey;
+            
         }
         else if (health_score < 5) {
 
             Console.WriteLine("20% healthy lifestyle, try more!");
-            Console.ReadKey;
+            
         }
 
         Console.WriteLine("Based on your weight: you should drink at least {0} glasses of water every day. ", (number_of_water / 10));
