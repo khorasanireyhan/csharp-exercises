@@ -11,18 +11,18 @@ public class Program {
        int number_of_water = Convert.ToInt32(Console.ReadLine());
 
        int health_score = (5 * water) + (tea) - (3 * soda);
-        if (health_score > 15) {
-            Console.WriteLine("100% healthy lifestyle");
+        if (health_score >= 15) {
+            Console.WriteLine("100% healthy Choose.");
             
 
         }
-        else if (health_score > 5 && health_score < 15) {
-            Console.WriteLine("50% healthy lifestyle, not bad...");
+        else if (health_score >= 5 && health_score < 15) {
+            Console.WriteLine("50% healthy Choose, not bad...");
             
         }
         else if (health_score < 5) {
 
-            Console.WriteLine("20% healthy lifestyle, try more!");
+            Console.WriteLine("20% healthy Choose, try more!");
             
         }
 
