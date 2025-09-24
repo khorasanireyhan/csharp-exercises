@@ -43,11 +43,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exercise2.cs" />
+    <Compile Include="If_Exercises\01_If_Statements\Easy.cs" />
+    <Compile Include="If_Exercises\01_If_Statements\Hard.cs" />
+    <Compile Include="If_Exercises\01_If_Statements\Medium.cs" />
+    <Compile Include="If_Exercises\02_IfElse_Statements\Easy.cs" />
+    <Compile Include="If_Exercises\02_IfElse_Statements\Hard.cs" />
+    <Compile Include="If_Exercises\02_IfElse_Statements\Medium.cs" />
+    <Compile Include="If_Exercises\03_NestedIf_Statements\Easy.cs" />
+    <Compile Include="If_Exercises\03_NestedIf_Statements\Hard.cs" />
+    <Compile Include="If_Exercises\03_NestedIf_Statements\Medium.cs" />
+    <Compile Include="If_Exercises\04_LogicalOperators_If\Easy.cs" />
+    <Compile Include="If_Exercises\04_LogicalOperators_If\Hard.cs" />
+    <Compile Include="If_Exercises\04_LogicalOperators_If\Medium.cs" />
+    <Compile Include="If_Exercises\05_Switch_Statements\Easy.cs" />
+    <Compile Include="If_Exercises\05_Switch_Statements\Hard.cs" />
+    <Compile Include="If_Exercises\05_Switch_Statements\Medium.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="If_Exercises\README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
