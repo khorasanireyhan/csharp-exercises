@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace csharp_exercises
+namespace csharp_exercises.If_Exercises._01_If_Statements
 {
     class Hard
     {
